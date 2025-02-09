@@ -121,7 +121,7 @@ model.save('model.h5')
 
 import streamlit as st
 
-!pip install streamlit
+
 
 # Load the trained model
 model = tf.keras.models.load_model('model.h5')
